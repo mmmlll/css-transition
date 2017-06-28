@@ -1,0 +1,13 @@
+.box {
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  background-color: rgb(233,126,37);
+  transition: width 5s
+}
+
+.expanded {
+  width: 100%
+}
+/* this above is a separate class that gets used only after JS causes the
+HTML to be updated, so that an element has a class called expanded */
